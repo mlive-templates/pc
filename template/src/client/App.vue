@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        <h1>{{msg}}</h1>
+        <h1>Hello Mtime</h1>
         <div class="pic"></div>
     </div>
 </template>
@@ -9,9 +9,7 @@
     export default {
         name: 'app',
         data: function () {
-            return {
-                msg: 'Hello Mtime'
-            }
+            return {}
         }
     }
 </script>
